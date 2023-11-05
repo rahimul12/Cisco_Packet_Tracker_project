@@ -1,0 +1,26 @@
+# Cisco_Packet_Tracker_project
+
+Project Brief:
+
+You will have to design the network of a Hotel named Weasley's Wizard Wheezes. The hotel has 6 floors. First to Sixth floor houses the office of 6 departments- Reception, Store & Logistics, Food & Beverages, Human Resources, Management and IT accordingly. Design the network using the following instructions.
+
+1.From the given Network ID, create 6 subnetworks; one for each floor. 
+
+2.Each floor must have a separate router. All the routers should be directly connected to the router of  IT.
+
+3.Routers of Reception, Store & Logistics and Management  should be connected with each other for better operations.
+
+4.For connecting two routers you must use Serial Connection.
+
+5.The networks between two routers can be anything you wish as long as its a valid IP address.
+
+6.Each department must have at least 3 PCs. You can use Switch or Hub according to your preference.
+
+7.You must use either OSPF or EIGRP as your routing protocol.
+
+8.Reception, Management and IT must have web services available; meaning they should be able to do web browsing. You can implement it anyhow you wish.
+
+9.At least  3 departments must have a DHCP server and the IP addresses of PCs in those networks should be provided using the DHCP server.
+
+** *Bonus marks: Assign IP addresses for the users of all networks using a single DHCP server situated in the IT department. [If you can complete the bonus part, instruction no 9 is redundant for you you can ignore it.] ** *
+
